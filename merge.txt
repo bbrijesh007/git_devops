@@ -1,0 +1,5 @@
+import re
+text = "the error found in this log path"
+pattern = r'error'
+result = re.search (pattern, text)
+print(result)
